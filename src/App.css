@@ -6,17 +6,4 @@
   background-size: cover;
 }
 
-.view:after {
-  background-color: blue;
-  contain: "";
-  position: absolute;
-  height: 10px;
-  left: 0;
-  width: 0%;
-  bottom: 0;
-  transition: width 0.3s ease;
-}
 
-.view:hover:after {
-  width: 100%;
-}
